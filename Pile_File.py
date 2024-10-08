@@ -20,6 +20,9 @@ class Pile:
     def __len__(self):
         return len(self.__pile)
 
+    def get_pile(self):
+        return self.__pile
+
 class File:
     def __init__(self):
         self.__file = []
@@ -41,3 +44,6 @@ class File:
     
     def __len__(self):
         return len(self.__file)
+
+    def get_file(self):
+        return self.__file
